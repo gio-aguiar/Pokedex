@@ -1,0 +1,49 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3e5a40; /* Aqui você pode colocar a cor que preferir */
+}
+
+.principal img{
+    display: flex;
+    width: 12rem;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos na vertical */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.principal ol {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+.conteudo {
+    padding-top: 5rem;
+    border-radius: 2rem 2rem 0 0;
+    background-color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.atributos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    .tab-button {
+        background-color: transparent;
+        border: none;
+        color:#ff1e00;
+        cursor: pointer; /* Altera o cursor para indicar que é clicável */
+    }
