@@ -18,7 +18,7 @@ body {
     justify-content: center; /* Centraliza verticalmente */
     align-items: center; /* Centraliza horizontalmente */
     color: #fff;
-    margin-bottom: 1rem;
+    margin-bottom: -3rem;
 }
 
 .principal ol {
@@ -41,9 +41,39 @@ body {
     justify-content: space-between;
 }
 
-    .tab-button {
-        background-color: transparent;
-        border: none;
-        color:#ff1e00;
-        cursor: pointer; /* Altera o cursor para indicar que é clicável */
-    }
+.tab-button {
+    background-color: transparent;
+    border: none;
+    color:#ffffff;
+    background-color: #666666;
+    border-radius: 3rem;
+    padding: .5rem;
+    cursor: pointer;
+    margin: .1rem;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tipos li{
+    background-color: #868686;
+    border-radius: 1rem;
+    padding: .5rem;
+    margin-right: 1rem;
+    margin-top: -2rem;
+}
+
+.identificador {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: baseline;
+    padding: 2rem;
+}
+
+.identificador h2{
+    font-size: 1rem;
+}
